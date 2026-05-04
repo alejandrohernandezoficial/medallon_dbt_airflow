@@ -1,0 +1,12 @@
+name: 'medallion_project'
+version: '1.0'
+profile: 'default'
+
+models:
+  medallion_project:
+    bronze:
+      materialized: table
+    silver:
+      materialized: view
+    gold:
+      materialized: table

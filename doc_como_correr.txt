@@ -1,0 +1,21 @@
+Bash
+
+docker-compose up -d
+
+
+Airflow: http://localhost:8080 admin / admin
+
+Activar DAG: medallion_pipeline
+
+
+--RESULTADO_FINAL
+
+SELECT * FROM fact_user_spending;
+
+
+RESULT
+
+user_id,total_spent
+1,300
+2,150
+
